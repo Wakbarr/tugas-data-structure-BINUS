@@ -78,7 +78,8 @@ st.markdown(f"""
 .step b {{ display: block; color: {PRIMARY}; font-size: 1.4rem; }}
 .class-grid {{ display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }}
 .class-item {{ background: #F3F4F6; border-radius: 10px; padding: 6px 8px; font-size: .85rem; }}
-.footer {{ text-align: center; color: #9CA3AF; font-size: .8rem; margin-top: 2rem; }}
+.footer {{ text-align: center; color: #9CA3AF; font-size: .8rem; margin-top: 2rem; line-height: 1.8; }}
+.footer .wm {{ color: {PRIMARY}; font-size: .85rem; letter-spacing: .03em; }}
 </style>
 """, unsafe_allow_html=True)
 
@@ -286,4 +287,5 @@ else:
                            file_name="hasil_prediksi.csv", mime="text/csv")
 
 st.markdown('<div class="footer">Tugas Kelompok 2 · Artificial Intelligence · '
-            'Model CNN dilatih pada dataset CIFAR-10</div>', unsafe_allow_html=True)
+            'Model CNN dilatih pada dataset CIFAR-10<br>'
+            '<span class="wm">Made by <b>Wakbarr</b></span></div>', unsafe_allow_html=True)
