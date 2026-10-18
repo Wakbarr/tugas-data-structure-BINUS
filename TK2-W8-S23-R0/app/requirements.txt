@@ -1,0 +1,8 @@
+# Samakan versi tensorflow & keras dengan model/model_info.json (versi Colab saat training).
+# Keras 3.13 butuh Python >= 3.11 -> gunakan Python 3.12.
+tensorflow==2.21.0
+keras==3.13.2
+streamlit==1.65.0
+pillow
+numpy
+pandas

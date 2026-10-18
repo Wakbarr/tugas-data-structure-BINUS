@@ -1,0 +1,4 @@
+model,test_accuracy,test_loss,params,size_mb,train_minutes,infer_ms_per_image
+M1_baseline,0.6944,1.926,356810,4.33,1.4,73.6
+M2_optimized,0.8741,0.3904,1216458,14.72,62.2,73.0
+M3_transfer,0.8618,0.4562,2270794,22.02,8.2,79.9

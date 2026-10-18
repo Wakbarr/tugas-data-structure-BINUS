@@ -1,0 +1,24 @@
+file,label,pred_M1,conf_M1,benar_M1,pred_M2,conf_M2,benar_M2,pred_M3,conf_M3,benar_M3
+airplane_1.jpg,airplane,airplane,99.1,Benar,airplane,99.9,Benar,airplane,100.0,Benar
+airplane_2.jpg,airplane,airplane,100.0,Benar,airplane,100.0,Benar,airplane,99.9,Benar
+automobile_1.jpg,automobile,automobile,100.0,Benar,automobile,98.2,Benar,automobile,100.0,Benar
+automobile_2.jpg,automobile,ship,52.2,Salah,automobile,99.6,Benar,automobile,100.0,Benar
+bird_1.jpg,bird,bird,100.0,Benar,bird,100.0,Benar,bird,100.0,Benar
+bird_2.jpg,bird,bird,99.9,Benar,bird,68.7,Benar,bird,99.9,Benar
+cat_1.jpg,cat,cat,99.9,Benar,cat,99.8,Benar,cat,99.9,Benar
+cat_2.jpg,cat,dog,99.8,Salah,dog,78.3,Salah,dog,57.2,Salah
+deer_1.jpg,deer,deer,96.3,Benar,deer,96.7,Benar,deer,100.0,Benar
+deer_2.jpg,deer,deer,67.9,Benar,deer,97.8,Benar,deer,99.6,Benar
+dog_1.jpg,dog,bird,100.0,Salah,dog,99.1,Benar,dog,94.7,Benar
+dog_2.jpg,dog,cat,91.2,Salah,dog,43.4,Benar,dog,81.7,Benar
+frog_1.jpg,frog,frog,99.8,Benar,frog,99.8,Benar,frog,100.0,Benar
+frog_2.jpg,frog,frog,99.3,Benar,frog,99.6,Benar,frog,100.0,Benar
+horse_1.jpg,horse,horse,100.0,Benar,horse,100.0,Benar,horse,100.0,Benar
+horse_2.jpg,horse,bird,99.0,Salah,horse,82.0,Benar,horse,89.6,Benar
+other_1.jpg,(di luar kelas),ship,100.0,-,ship,90.2,-,ship,74.6,-
+other_2.jpg,(di luar kelas),ship,99.3,-,ship,67.0,-,airplane,79.1,-
+other_3.jpg,(di luar kelas),airplane,91.6,-,airplane,88.3,-,truck,94.1,-
+ship_1.jpg,ship,ship,100.0,Benar,ship,99.1,Benar,airplane,98.9,Salah
+ship_2.jpg,ship,ship,100.0,Benar,ship,100.0,Benar,ship,100.0,Benar
+truck_1.jpg,truck,truck,99.4,Benar,truck,97.1,Benar,truck,100.0,Benar
+truck_2.jpg,truck,airplane,99.7,Salah,airplane,66.6,Salah,airplane,97.7,Salah
